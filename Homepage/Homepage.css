@@ -181,3 +181,83 @@ h5 {
     font-weight: 600;
     line-height: 1.375;
 }
+
+/* Trust Styles */
+
+trust {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.Trust-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px auto;
+    max-width: 1120px;
+    column-gap: 32px;
+}
+
+.Logos-container-1 {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 16px;
+    grid-row-gap: 8px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo-1 {
+    width: 117px;
+    height: 26.42px;
+}
+
+.Logo-2 {
+    width: 117px;
+    height: 26.42px;
+}
+
+.logo-3 {
+    width: 152.09px;
+    height: 26.42px;
+}
+
+.logo-4 {
+    width: 123.34px;
+    height: 25.97px;
+}
+
+.logo-5 {
+    width: 165.2px;
+    height: 26.42px;
+}
+
+.logo-6 {
+    width: 139.11px;
+    height: 25.97px;
+}
+
+.logo-7 {
+    width: 135.48px;
+    height: 26.42px;
+}
+
+.logo-8 {
+    width: 173.33px;
+    height: 25.45px;
+}
+
+.logo-9 {
+    width: 152.95px;
+    height: 25.97px;
+}
+
+.logo-10 {
+    width: 145.14px;
+    height: 25.97px;
+}
+
+
