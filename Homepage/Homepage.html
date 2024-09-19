@@ -3,19 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Homepage</title>
+    
     <link rel="stylesheet" href="Homepage.css">
 </head>
 
 <Body>
-    <nav>
-        <img src="Images/Navbar/Logo.svg" alt="">
-        <ul>
-            <li>Products</li>
-            <li>Solutions</li>
-            <li>Pricing</li>
-            <li>Docs</li>
-            <li>Content Hub</li>
+    <nav class="Navbar-Container">
+        <div class="data">
+            <div class="logo-container">
+                <img src="Images/Navbar/Logo.svg" alt="">
+            </div>
+            
+        <ul class="nav-items">
+            <li class="nav-items-list" id="nav-border-1">Products</li>
+            <li class="nav-items-list">Solutions</li>
+            <li class="nav-items-list">Pricing</li>
+            <li class="nav-items-list">Docs</li>
+            <li class="nav-items-list" id="nav-border-2">Content Hub</li>
         </ul>
-    </nav>
+        <div class="btn-container">
+            <button class="btn-sec">Contact us</button>
+            <button class="btn-pri">Go to dashboard</button>
+        </div>
+        </div>
+    </nav> 
+
+    <section class="Hero-Section"> <!-- Hero Section -->
+        <div class="Announcement-Container">
+            <div class="Announcement-Pill">
+                <h6 class="Pill-text-1">New</h6>
+                <p class="Pill-text-2"><span class="Pill-text-2-bold">Ox v2</span> next gen pricing engine — get early access today</p>
+                <img src="Images/Hero Section/Vector.svg" alt="Arrow">
+            </div> <!-- End of pill div-->
+        </div>
+        <div class="Container">
+            <div class="Text-box">
+                <h1>Connecting developers to Web3 markets</h1>
+                <h5>Your one stop shop to build financial products on crypto rails. Enable faster trading, better prices and superior UX in your app.</h5>
+                <button class="hero-btn">Get started</button>
+            </div> <!-- End of text box div -->
+            <img src="Images/Hero Section/Hero Image.png" alt="" class="Hero-Image">
+        </div>
+    </section>
 </Body>
