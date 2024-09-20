@@ -95,10 +95,17 @@ nav {
 h1 {
     font-size: 5.125rem;
     font-weight: 200px;
-    font: 'polysans';
     color: #26272B;
     margin-bottom: 32px;
     margin-top: 0;
+}
+
+h2 {
+    font-size: 3.875rem;
+    font-weight: 400;
+    margin: 0;
+    color: #26272B;
+    line-height: 4.65rem;
 }
 
 h5 {
@@ -292,4 +299,12 @@ API {
     justify-content: center;
     max-width: 1120px;
     align-items: center;
+}
+
+.api-header {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 32px;
 }
