@@ -390,7 +390,7 @@ API {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    max-width: 1120px;
+    max-width: 1200px;
     padding-top: 7.125em;
     padding-bottom: 7.125em;
     overflow: none;
@@ -524,3 +524,83 @@ API {
     max-width: 257.96;
 }
 
+/* Crypto trading styles */
+
+.crypto-trading {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #26272B;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    overflow: hidden;
+}
+
+.crypto-trading-container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 12.5em;
+    padding-bottom: 12.5em;
+    gap: 32px;
+}
+
+.cryto-trading-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    max-width: 34em;
+}
+
+.crypto-image {
+    width:32.639375em;
+    height: 26.4725em;
+}
+
+.crypto-text {
+    color: white;
+}
+
+.crypto-trading {
+    color: #A2FFC1;
+}
+
+#btn-color-1 {
+    background-color: #A2FFC1;
+    color: #0E2A17;
+    font-weight: 400;
+}
+
+/* web3 application styles */
+
+.web3-applications {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.web3-applications-container {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    max-width: 1200px;
+    align-items: center;
+    padding-bottom: 114px;
+    padding-top: 114px;
+}
+
+.web3-product-header {
+    max-width: 600px;
+}
+
+.web3-header-paragraph {
+    max-width: 571.32px;
+    text-align: center;
+    margin: 0 auto;
+}
