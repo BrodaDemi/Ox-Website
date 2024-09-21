@@ -185,7 +185,7 @@ p {
     display: flex;
     align-items: center;
     margin: 80px auto;
-    max-width: 1120px;
+    max-width: 1200px;
     column-gap: 32px;
 }
 
@@ -219,7 +219,7 @@ trust {
     flex-direction: column;
     align-items: center;
     margin: 80px auto;
-    max-width: 1120px;
+    max-width: 1200px;
     column-gap: 32px;
 }
 
@@ -307,7 +307,7 @@ API {
     flex-direction: column;
     margin: auto;
     justify-content: center;
-    max-width: 1120px;
+    max-width: 1200px;
     align-items: center;
     padding-bottom: 114px;
 }
@@ -425,3 +425,56 @@ API {
 #btn-color {
     background-color: #6B32E4;
 }
+
+/* Web3 Exchange style */
+
+.web3-exchange {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.web3-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    max-width: 1200px;
+    align-items: center;
+    padding-bottom: 10em;
+    padding-top: 10em;
+}
+
+.web3-header-container {
+    max-width: 46.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+#header-paragraph {
+    max-width: 34.185625em;
+}
+
+.web3-text {
+    color: #70707B;
+}
+
+#Seamless {
+    max-width: 45.645em;
+}
+
+#card {
+    padding: 40px;
+}
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
