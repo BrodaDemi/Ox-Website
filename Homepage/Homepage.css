@@ -1,7 +1,7 @@
 body {
     font-family: 'inter', serif;
     margin: 0;
-    padding: 0 1em;
+    padding: 0;
   
 }
 
@@ -299,6 +299,7 @@ API {
     width: 100%;
     padding: 0;
     margin: 0;
+   
 }
 
 .api-container {
@@ -308,6 +309,7 @@ API {
     justify-content: center;
     max-width: 1120px;
     align-items: center;
+    padding-bottom: 114px;
 }
 
 .api-header {
@@ -328,6 +330,7 @@ API {
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .card {
@@ -355,4 +358,70 @@ API {
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 12px;
+}
+
+.Header-span {
+    color: #A0A0AB;
+}
+
+/* Product Image Styles */
+
+.Product-Image {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F5;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    overflow: hidden;
+}
+
+.product-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1120px;
+    padding-top: 7.125em;
+    padding-bottom: 7.125em;
+    overflow: none;
+}
+
+.product-image {
+    width: 62.5em;
+    height: 39.4375em;
+}
+
+.product-header-container {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 4em;
+}
+
+.Seamless {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.text-span {
+    color: #6B32E4
+}
+
+.header-paragraph {
+    text-align: center;
+    max-width: 25em;
+    margin: 0 auto;
+}
+
+.paragraph-span {
+    font-weight: 800;
+}
+
+#btn-color {
+    background-color: #6B32E4;
 }
