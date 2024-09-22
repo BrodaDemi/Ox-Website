@@ -109,6 +109,15 @@ h2 {
     line-height: 4.65rem;
 }
 
+h3 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+    color: #26272B;
+    line-height: 3.6rem;
+    color: #26272B;
+}
+
 h4 {
     font-size: 1.625rem;
     line-height: 1.95rem;
@@ -597,10 +606,34 @@ API {
 
 .web3-product-header {
     max-width: 600px;
+    margin-bottom: 5em;
 }
 
 .web3-header-paragraph {
     max-width: 571.32px;
     text-align: center;
     margin: 0 auto;
+}
+
+.web3-text {
+    font-weight: 600;
+}
+
+.web3-data-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: stretch;
+    max-width: 1200px;
+    margin-bottom: 16px;
+}
+
+.web3-data-card {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F5;
+    border-radius: 32px;
+    padding: 70px 120px;
 }
