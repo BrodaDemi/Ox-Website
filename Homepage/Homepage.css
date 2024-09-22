@@ -640,3 +640,92 @@ API {
 
 /*  testimonial section styles */
 
+.testimonial-cards {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.cards-testimonials {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+    scroll-snap-type: x mandatory;
+    min-height: 400px;  /* Adjust this value to match your desired card height */
+}
+
+.testimonials {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 561.61px;
+    padding: 32px;
+    border-radius: 32px;
+    scroll-snap-align: start;
+    color: white;
+    justify-content: space-between; 
+    
+}
+
+.testimonial-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.testimonial-image {
+    width: 130px;
+}
+
+.testimonial-text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.testimonial-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-name {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.testimonial-position {
+    color: #fff;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+
+#Defi {
+    background-color: #37B06F;
+}
+
+#Zerion {
+    background-color: #26272B;
+}
+
+#Deblock {
+    background-color: #F4F4F5;
+}
+
+#Zapper {
+    background-color: #784ffe;
+}
+
+#lisa {
+    background-color: #1652F0;
+}
+
+#Defi {
+    background-color: #37B06F;
+}
+
+
