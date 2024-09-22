@@ -646,8 +646,17 @@ API {
     margin: 0;
 }
 
+.outer-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    flex: 0 0 10%;  /* Adjust this value to change the size of the empty space */
+    min-width: 300px;  /* Ensure a minimum width for the empty space */
+}
+
 .cards-testimonials {
     display: flex;
+    flex-grow: 1;
     overflow-x: auto;
     gap: 20px;
     padding: 20px 0;
