@@ -737,4 +737,75 @@ API {
     background-color: #37B06F;
 }
 
+/* CTA styles */
 
+.call-to-action {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 24px;
+    padding-top: 114px;
+    padding-bottom: 114px;
+}
+
+.cta {
+    padding: 77px;
+    width: 100%;
+    border-radius: 32px;
+}
+
+#cta-1 {
+    background-color: #26272B;
+}
+
+#cta-2 {
+    background-color: #C8D4FA;
+}
+
+.cta-header-1 {
+    color: #A0A0AB;
+    font-size: 62px;
+    font-weight: 200;
+    margin-bottom: 22px;
+}
+
+.cta-first-text {
+    color: #FAFAFA;
+}
+
+.cta-paragraph-1 {
+    font-size: 22px;
+    color: #A0A0AB;
+    margin-bottom: 32px;
+    font-weight: 100;
+}
+
+#btn-1 {
+    background-color: #FFFFFF;
+    color: #18181B;
+    font-weight: 300;
+    padding: 15px 18px;
+}
+
+.cta-header-2 {
+    color: #0E106D;
+    font-size: 62px;
+    font-weight: 200;
+    margin-bottom: 22px;
+}
+
+.cta-paragraph-2 {
+    color: #37276A;
+    opacity: 70%;
+    margin-bottom: 32px;
+    font-weight: 100;
+}
